@@ -1,12 +1,12 @@
 @title[表紙]
-# 「Angular」で作るWebアプリケーション
+## 「Angular」で作るWebアプリケーション
 
 ![logo](assets/angular.png)
 
 ---
 
 @title[WebApp作りのめんどいところ]
-## Webアプリケーションを作るにあたり
+### Webアプリケーションを作るにあたり
 
 HTML5 + CSS + JavaScriptは
 
@@ -16,7 +16,7 @@ HTML5 + CSS + JavaScriptは
 
 ---
 
-## スケーラビリティ
+### スケーラビリティ
 
 <dl>
   <dt>HTML5 + CSS(or SASS, LESS)</dt>
@@ -34,7 +34,7 @@ HTML5 + CSS + JavaScriptは
 
 ---
 
-## とても煩雑
+### とても煩雑
 
 Webアプリケーション（特にSPA）ではDOMががっちゃんがっちゃん弄られまくる
 再利用性の低い仕様で
@@ -46,7 +46,7 @@ Webアプリケーション（特にSPA）ではDOMががっちゃんがっち�
 
 ---
 
-## 環境作りがダルい
+### 環境作りがダルい
 
 + AltJS(TypeScript, CoffeeScript, Flow, Kotlin... )
 + 依存性管理(npm, bower...)
@@ -58,7 +58,7 @@ Webアプリケーション（特にSPA）ではDOMががっちゃんがっち�
 --- 
 
 @title[Angularというソリューション]
-## Angularなら……
+### Angularなら……
 
 ![logo](assets/angular.png)
 
@@ -72,7 +72,7 @@ Angularは開発環境まで含めたフレームワーク
 ---
 
 @title[インストール方法]
-## インストール
+### インストール
 
 とっても簡単。
 
@@ -103,13 +103,13 @@ Angularは開発環境まで含めたフレームワーク
 
 @title[動かしてみる]
 
-## 実際に動かしてみるタイム
+### 実際に動かしてみるタイム
 
 ---
 
 @title[注意]
 
-## 注意点
+### 注意点
 
 AngularJS 1.x → Angular 2.xで**互換性がなくなった**
 (ついでに名前も変わった)
@@ -117,6 +117,6 @@ WebでAngularを調べるときは「Angular4」や「Angular5」で検索！
 
 --- 
 
-## おわり
+### おわり
 
 ご清聴ありがとうございました。
