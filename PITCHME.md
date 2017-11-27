@@ -85,7 +85,7 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 ### プロジェクト生成
 
-<p color="red">`ng new (プロジェクト名)`</p>
+<p style="color:red;">`ng new (プロジェクト名)`</p>
 
 これだけで
 
