@@ -104,8 +104,8 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 ### 注意点
 
-AngularJS 1.x → Angular 2.xで**互換性がなくなった**  
-→情報が混在
+AngularJS 1.x → Angular 2.xで**互換性がなくなった**  
+古い情報が混在している
 
 WebでAngularを調べるときは「Angular4」や「Angular5」で検索！
 
