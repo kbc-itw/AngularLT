@@ -1,12 +1,12 @@
 @title[表紙]
-## 「Angular」で作るWebアプリケーション
+## 「Angular5」でWebAppを作ろう
 
 ![logo](assets/angular.png)
 
 ---
 
 @title[WebApp作りのめんどいところ]
-### WebbApp作りのつらいところ
+### WebApp作りのつらいところ
 
 HTML5 + CSS + JavaScriptは
 
@@ -50,24 +50,24 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 ### 環境作りがダルい
 
-- AltJS(TypeScript, CoffeeScript, Flow, Kotlin... ) |
-- 依存性管理(npm, bower...) |
-- テスト(Jasmine, Mocha, Karma, power-assart) |
-- ビルドツール(Grunt, Gulp, Browserify, Webpack) |
-- Polyfil(Babel) |
-- ボイラープレート(yo, BootStrap) |
+- AltJS(TypeScript, CoffeeScript, Flow, Kotlin... )
+- 依存性管理(npm, bower...)
+- テスト(Jasmine, Mocha, Karma, power-assart)
+- ビルドツール(Grunt, Gulp, Browserify, Webpack)
+- Polyfil(Babel)
+- ボイラープレート(yo, BoilarPlate)
 
 --- 
 
 @title[Angularというソリューション]
-### Angularなら……
+### Angularとは……
 
-Angularは開発環境まで含めたフレームワーク
+Google製オープンソースWebフロントエンドフレームワーク  
+MITライセンス
 
-- DOMのカプセル化、TSによる**スケーラビリティ**
-- Module, Componentでの**管理**（再利用性も高い！)
+- DOMのカプセル化、TypeScriptにより**スケーラブル**
+- Module, Componentでの**簡潔なDOM管理**
 - ツール群をワンストップで用意できる**Angular-CLI**
-
 
 ---
 
