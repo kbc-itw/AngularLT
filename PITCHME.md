@@ -36,7 +36,7 @@ JavaScript
 さらに、HTML5やES6の機能は  
 **ブラウザ毎に対応状況が違う**
 
-- ES6で追加された諸々にIEは当然対応していない
+- ES6で追加された諸々にIEは対応していない
 - `Service Worker`はEdgeやSafariが対応してない
 
 
@@ -77,7 +77,7 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 1. Node.jsをインストール(npmを使うので)
 2. コンソールを開く
-3. `npm install --g @angular/cli`
+3. <span style="color:red";>`npm install --g @angular/cli`</span>
 
 ね？　簡単でしょ？
 
