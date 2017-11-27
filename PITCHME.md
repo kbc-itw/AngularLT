@@ -7,7 +7,7 @@
 ### Angularとは……
 
 1. Google製で
-2. オープンソース(MIT)な
+2. オープンソース（MIT）な
 3. Webフロントエンドフレームワーク  
 
 ---
@@ -16,7 +16,7 @@
 
 HTML5 + CSS + JavaScriptは
 
-- スケーラビリティが低い
+- スケーラビリティ（拡張性）が低い
 - DOM管理とかとても煩雑
 - 環境づくりがダルい
 
@@ -24,7 +24,7 @@ HTML5 + CSS + JavaScriptは
 
 ### スケーラビリティ
 
-HTML5 + CSS(or SASS, LESS)  
+HTML5 + CSS（or Sass, LESS）  
 →IDやクラスの衝突を気にする必要がある
 JavaScript  
 →自由すぎて大規模プロジェクトに向かない
