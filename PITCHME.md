@@ -1,12 +1,18 @@
-@title[表紙]
 ## 「Angular5」でWebAppを作ろう
 
 ![logo](assets/angular.png)
 
 ---
 
-@title[WebApp作りのめんどいところ]
-### WebApp作りのつらいところ
+### Angularとは……
+
+1. Google製で
+2. オープンソース(MIT)な
+3. Webフロントエンドフレームワーク  
+
+---
+
+### フロントエンドはつらいよ
 
 HTML5 + CSS + JavaScriptは
 
@@ -18,19 +24,17 @@ HTML5 + CSS + JavaScriptは
 
 ### スケーラビリティ
 
-<dl>
-  <dt>HTML5 + CSS(or SASS, LESS)</dt>
-  <dd>IDやクラスの衝突を気にする必要がある</dd>
-  <dt>JavaScript</dt>
-  <dd>自由すぎて大規模プロジェクトに向かない</dd>
-</dl>
+HTML5 + CSS(or SASS, LESS)  
+→IDやクラスの衝突を気にする必要がある
+JavaScript  
+→自由すぎて大規模プロジェクトに向かない
 
 ---
 
 ### スケーラビリティ
 
-さらに、HTML5やES6の機能は
-**ブラウザごとに対応状況が違う**
+さらに、HTML5やES6の機能は  
+**ブラウザ毎に対応状況が違う**
 
 - ES6で追加された諸々にIEは当然対応していない
 - `Service Worker`はEdgeやSafariが対応してない
@@ -43,8 +47,8 @@ HTML5 + CSS + JavaScriptは
 WebApp（特にSPA）ではDOMが弄られまくる  
 `画面上のDOM数 * 画面数 = 全部のDOM`
 
-**クロスプラットフォーム**だとなおさら大変  
-しかも**パフォーマンス**もつきまとう
+**クロスプラットフォーム**だとなおさら大変  
+**パフォーマンス**も気にしないといけない
 
 ---
 
@@ -59,19 +63,14 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 --- 
 
-@title[Angularというソリューション]
-### Angularとは……
+### Angularなら……
 
-Google製オープンソースWebフロントエンドフレームワーク  
-MITライセンス
-
-- DOMのカプセル化、TypeScriptにより**スケーラブル**
+- DOMのカプセル化、フルTS利用により**スケーラブル**
 - Module, Componentでの**簡潔なDOM管理**
-- ツール群をワンストップで用意できる**Angular-CLI**
+- ツール群を一元提供する**Angular-CLI**
 
 ---
 
-@title[インストール方法]
 ### インストール
 
 とっても簡単。
@@ -84,7 +83,7 @@ MITライセンス
 
 ---
 
-@title[プロジェクト生成]
+### プロジェクト生成
 
 `ng new (プロジェクト名)`
 
@@ -99,21 +98,18 @@ MITライセンス
 
 ---
 
-@title[動かしてみる]
-
 ### 実際に動かしてみるタイム
 
 ---
 
-@title[注意]
-
 ### 注意点
 
 AngularJS 1.x → Angular 2.xで**互換性がなくなった**  
-(ついでに名前も変わった)  
+→情報が混在
+
 WebでAngularを調べるときは「Angular4」や「Angular5」で検索！
 
---- 
+---
 
 ### おわり
 
