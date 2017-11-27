@@ -1,4 +1,4 @@
-## 「Angular5」でWebAppを作ろう
+# 「Angular5」とは
 
 ![logo](assets/angular.png)
 
