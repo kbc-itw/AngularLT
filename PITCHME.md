@@ -26,7 +26,7 @@ HTML5 + CSS + JavaScriptは
 ### スケーラビリティ
 
 HTML5 + CSS（or Sass, LESS）  
-→IDやクラスの衝突を気にする必要がある
+→IDやクラスの衝突を気にする必要がある  
 JavaScript  
 →自由すぎて大規模プロジェクトに向かない
 
