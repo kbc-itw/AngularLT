@@ -72,6 +72,12 @@ WebApp（特にSPA）ではDOMが弄られまくる
 どうせ悩むならロジック部分で悩みたい
 
 ---
+
+### 一つの解決策
+
+![logo](assets/angular.png)
+
+---
 ### Angularなら……
 
 - DOMのカプセル化、フルTS利用で**スケーラブル**
@@ -118,6 +124,14 @@ AngularJS 1.x → Angular 2.xで**互換性がなくなった**  
 古い情報が混在している
 
 WebでAngularを調べるときは「Angular4」や「Angular5」で検索！
+
+---
+
+### ついでに
+
+Angularだけがjsのフレームワークではない  
+（Vue.js、React.js、BackBone.js、etc...）  
+問題に対し最適（と思われる）ものを選ぼう！
 
 ---
 
