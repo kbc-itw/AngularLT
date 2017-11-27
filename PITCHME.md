@@ -91,9 +91,10 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 とっても簡単。
 
-1. Node.jsをインストール(npmを使うので)
+1. Node.jsをインストール
 2. コンソールを開く
 3. <span style="color:red";>`npm install --g @angular/cli`</span>
+4. しばし待つ
 
 ね？　簡単でしょ？
 
