@@ -12,11 +12,12 @@
 
 ---
 
-### フロントエンドはつらいよ
+### Webフロントエンドのつらさ
 
 HTML5 + CSS + JavaScriptは
 
 - スケーラビリティ（拡張性）が低い
+- 環境毎の対応状況が異なる
 - DOM管理とかとても煩雑
 - 環境づくりがダルい
 
@@ -31,14 +32,15 @@ JavaScript
 
 ---
 
-### スケーラビリティ
+### 対応状況の違い
 
-さらに、HTML5やES6の機能は  
+HTML5やES6の機能は  
 **ブラウザ毎に対応状況が違う**
 
 - ES6で追加された諸々にIEは対応していない
 - `Service Worker`はEdgeやSafariが対応してない
 
+「アレを使おう！」→「ダメやん！」が多発
 
 ---
 
@@ -54,19 +56,27 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 ### 環境作りがダルい
 
-- AltJS(TypeScript, CoffeeScript, Flow, Kotlin... )
 - 依存性管理(npm, bower...)
-- テスト(Jasmine, Mocha, Karma, power-assart)
-- ビルドツール(Grunt, Gulp, Browserify, Webpack)
-- Polyfil(Babel)
-- ボイラープレート(yo, BoilarPlate)
+- AltJS(TypeScript, CoffeeScript, Flow, Kotlin... )
+- テスト(Jasmine, Mocha, Karma, power-assart...)
+- ビルドツール(Grunt, Gulp, Browserify, Webpack...)
+- ボイラープレート(yo, BoilarPlate...)
+- polyfill(Babel, Polyfill...)
 
---- 
+---
 
+### つらい 
+
+以上で述べたところは開発の本質ではない  
+つまり無駄な工数になる  
+どうせ悩むならロジック部分で悩みたい
+
+---
 ### Angularなら……
 
 - DOMのカプセル化、フルTS利用で**スケーラブル**
-- Module, Componentでの**簡潔なDOM管理**
+- 良い感じにダウンパイルして**環境対応**
+- Module, Componentで**簡潔なDOM管理**
 - ツール群を一元提供する**Angular-CLI**
 
 ---
