@@ -65,7 +65,7 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 ### Angularなら……
 
-- DOMのカプセル化、フルTS利用により**スケーラブル**
+- DOMのカプセル化、フルTS利用で**スケーラブル**
 - Module, Componentでの**簡潔なDOM管理**
 - ツール群を一元提供する**Angular-CLI**
 
@@ -85,7 +85,7 @@ WebApp（特にSPA）ではDOMが弄られまくる
 
 ### プロジェクト生成
 
-`ng new (プロジェクト名)`
+<p color="red">`ng new (プロジェクト名)`</p>
 
 これだけで
 
